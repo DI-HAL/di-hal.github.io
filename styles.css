@@ -11,7 +11,7 @@ body {
     overflow: hidden;
 }
 
-/* Background Positioning */
+
 .background {
     position: absolute;
     width: 100%;
@@ -35,7 +35,7 @@ body {
     height: 978px;
 }
 
-/* Profile Card Styling */
+
 .profile-card {
     background: white;
     border-radius: 15px;
@@ -113,7 +113,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Responsive Adjustments for Phones */
+
 @media (max-width: 600px) {
     .bg-top {
         top: -60%;
@@ -158,15 +158,14 @@ body {
     }
 }
 
-/* Mobile-First Refinement */
-@media (max-width: 375px) { /* Targets most phones */
+@media (max-width: 375px) { 
     body {
         padding: 20px;
-        overflow: auto; /* Allows scrolling if needed */
+        overflow: auto; 
     }
 
     .background {
-        transform: scale(0.8); /* Scale down background patterns */
+        transform: scale(0.8); 
     }
 
     .bg-top {
@@ -187,7 +186,7 @@ body {
         width: 100%;
         max-width: 325px;
         margin: 0;
-        transform: scale(0.9); /* Perfect card sizing */
+        transform: scale(0.9); 
     }
 
     .profile-image {
