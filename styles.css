@@ -119,16 +119,21 @@ body {
     .bg-top {
         top: -60%;
         left: -80%;
+        width: 150%;
+        height: auto;
     }
 
     .bg-bottom {
         bottom: -60%;
         right: -80%;
+        width: 150%;
+        height: auto;
     }
 
     .profile-card {
         width: 90%;
         max-width: 300px;
+        margin: 10px;
     }
 
     .profile-image {
